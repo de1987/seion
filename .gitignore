@@ -1,0 +1,42 @@
+# Build outputs
+build/
+.gradle/
+.kotlin/
+/captures
+*.apk
+*.aab
+*.ap_
+*.dex
+outputs/
+
+# Python bytecode (tools/)
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Local machine config (SDK path, keystores, secrets)
+local.properties
+*.jks
+*.keystore
+keystore.properties
+*.p12
+*.pfx
+release.properties
+secrets.properties
+*.env
+.env*
+
+# Local test audio and logs
+tmp/
+*.log
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.opus

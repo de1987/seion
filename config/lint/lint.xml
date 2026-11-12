@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Version bumps are deliberate (see gradle/libs.versions.toml); don't fail the build on newer releases. -->
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <!-- Every user-visible string lives in res/values and res/values-pt-rBR. -->
+    <issue id="MissingTranslation" severity="error" />
+    <issue id="HardcodedText" severity="error" />
+    <!-- A local music player that reads the real file tree: full file access is intended. -->
+    <issue id="ScopedStorage" severity="ignore" />
+</lint>
