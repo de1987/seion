@@ -85,8 +85,8 @@ android {
         applicationId = "io.github.de1987.seion"
         minSdk = 31
         targetSdk = 37
-        versionCode = 19
-        versionName = "1.5.1"
+        versionCode = 20
+        versionName = "1.5.2"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("boolean", "HAS_FFMPEG", withFfmpeg.toString())
         buildConfigField("String", "FFMPEG_DECODER_VERSION", "\"${libs.versions.ffmpegDecoder.get()}\"")
