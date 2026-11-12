@@ -1,8 +1,8 @@
 # Pinned versions; bump deliberately and run `make check` afterwards.
 [versions]
-agp = "9.4.1"
+agp = "9.5.1"
 kotlin = "2.4.21"
-ksp = "2.3.12"
+ksp = "2.3.13"
 composeBom = "2026.09.00"
 activityCompose = "1.13.0"
 coreKtx = "1.19.1"
@@ -11,7 +11,7 @@ room = "2.8.5"
 work = "2.12.0"
 datastore = "1.3.0"
 media3 = "1.11.1"
-palette = "1.0.0"
+palette = "1.1.0"
 # Prebuilt Media3 FFmpeg audio decoder (Jellyfin build; its POM declares GPL-3.0): only where no platform decoder exists (ALAC).
 # Built against Media3 1.9.0; works with the Media3 version above.
 ffmpegDecoder = "1.9.0+1"
