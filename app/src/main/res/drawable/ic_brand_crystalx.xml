@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CrystalX+ feature mark: two faceted crystal shards crossing as an X, each cut into a lit and a shaded facet, with a small '+' glint at the upper right. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path
+        android:pathData="M13,2 H35 A11,11 0 0 1 46,13 V35 A11,11 0 0 1 35,46 H13 A11,11 0 0 1 2,35 V13 A11,11 0 0 1 13,2 Z"
+        android:fillColor="#FF0D1020" />
+    <path
+        android:pathData="M13,2.4 H35 A10.6,10.6 0 0 1 45.6,13 V35 A10.6,10.6 0 0 1 35,45.6 H13 A10.6,10.6 0 0 1 2.4,35 V13 A10.6,10.6 0 0 1 13,2.4 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#FF2A2F5C"
+        android:strokeWidth="0.8" />
+    <path
+        android:pathData="M12.44,36.56 L13.36,30.41 L28.21,15.56 L34.36,14.64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="9" android:endX="0" android:endY="41">
+                <item android:offset="0" android:color="#FF786CCE" />
+                <item android:offset="1" android:color="#FF504DBD" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M12.44,36.56 L34.36,14.64 L33.44,20.79 L18.59,35.64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="9" android:endX="0" android:endY="41">
+                <item android:offset="0" android:color="#FF3F447D" />
+                <item android:offset="1" android:color="#FF253171" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M12.44,14.64 L18.59,15.56 L33.44,30.41 L34.36,36.56 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="9" android:endX="0" android:endY="41">
+                <item android:offset="0" android:color="#FFAFAAE8" />
+                <item android:offset="1" android:color="#FF7B74DF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M12.44,14.64 L34.36,36.56 L28.21,35.64 L13.36,20.79 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="9" android:endX="0" android:endY="41">
+                <item android:offset="0" android:color="#FF786CCE" />
+                <item android:offset="1" android:color="#FF504DBD" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M12.44,14.64 L34.36,36.56"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="0.7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeAlpha="0.7" />
+    <path
+        android:pathData="M34.2,10.4 H41 M37.6,7 V13.8"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+<!-- Seion icon "Slots": foreground (108 x 108 adaptive canvas, unmasked). -->
+<defs><linearGradient id="g" x1="37.17" y1="37.17" x2="70.83" y2="70.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFC453"/><stop offset="1" stop-color="#FF7F5C"/></linearGradient></defs><path d="M74.412,42.61 L47.625,42.61 A3.57,3.57 0 0,0 47.625,49.75 L76.985,49.75 A23.375,23.375 0 0,1 33.588,65.39 L60.375,65.39 A3.57,3.57 0 0,0 60.375,58.25 L31.015,58.25 A23.375,23.375 0 0,1 74.412,42.61 Z" fill="url(#g)"/>
+</svg>

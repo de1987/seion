@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Seion launcher icon "Slots": an amber-to-coral disc cut by two slots that leave an S
+     (disc r 23.375, slots 7.14 wide). One baked path, inside
+     the 66 dp safe zone. Sources and notes: design/icon/. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path
+        android:pathData="M74.412,42.61 L47.625,42.61 A3.57,3.57 0 0,0 47.625,49.75 L76.985,49.75 A23.375,23.375 0 0,1 33.588,65.39 L60.375,65.39 A3.57,3.57 0 0,0 60.375,58.25 L31.015,58.25 A23.375,23.375 0 0,1 74.412,42.61 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="37.17" android:startY="37.17" android:endX="70.83" android:endY="70.83">
+                <item android:offset="0" android:color="#FFFFC453" />
+                <item android:offset="1" android:color="#FFFF7F5C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

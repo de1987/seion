@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android Auto: Seion is a media app (its MediaLibraryService's browse tree). -->
+<automotiveApp>
+    <uses name="media" />
+</automotiveApp>

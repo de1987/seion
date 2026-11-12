@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Seion</string>
+    <string name="license_androidx" translatable="false">AndroidX (Jetpack): Compose, Material 3, Media3 (ExoPlayer, Session), Room, SQLite, WorkManager, DataStore, Palette, Core, Activity, Lifecycle, SavedState, Emoji2, Window, Startup, Profile Installer, Tracing, Concurrent, Collection, Annotation and the other AndroidX support libraries they use</string>
+    <string name="license_flatbuffers" translatable="false">FlatBuffers (inside AndroidX Emoji2)</string>
+    <string name="license_kotlin" translatable="false">Kotlin standard library, kotlinx.coroutines, kotlinx.serialization, kotlinx-atomicfu</string>
+    <string name="license_okhttp" translatable="false">OkHttp, Okio</string>
+    <string name="license_guava" translatable="false">Guava, failureaccess (via Media3)</string>
+    <string name="license_annotations" translatable="false">Annotation libraries: JSR 305 annotations, JSpecify, Error Prone annotations, J2ObjC annotations, JetBrains Java annotations</string>
+    <string name="license_apache" translatable="false">Apache License 2.0</string>
+    <string name="license_protobuf" translatable="false">Protocol Buffers lite runtime (repackaged inside AndroidX DataStore)</string>
+    <string name="license_bsd3" translatable="false">BSD 3-Clause License</string>
+    <string name="license_psl" translatable="false">Public Suffix List (bundled with OkHttp)</string>
+    <string name="license_mpl2" translatable="false">Mozilla Public License 2.0</string>
+    <string name="license_ffmpeg" translatable="false">FFmpeg audio decoder for ALAC (Jellyfin Media3 FFmpeg decoder build; FFmpeg itself is LGPL 2.1+)</string>
+    <string name="license_gpl3" translatable="false">GNU General Public License v3.0</string>
+    <string name="license_roboto" translatable="false">Roboto (SIL Open Font License 1.1)</string>
+    <string name="license_ofl" translatable="false">SIL Open Font License 1.1</string>
+    <string name="license_checker" translatable="false">Checker Framework qualifiers (via Guava)</string>
+    <string name="license_mit" translatable="false">MIT License</string>
+    <string name="license_apache_users" translatable="false">AndroidX, FlatBuffers, Kotlin libraries, OkHttp, Okio, Guava, annotation libraries</string>
+    <string name="license_bsd3_users" translatable="false">Protocol Buffers</string>
+    <string name="license_mpl2_users" translatable="false">Public Suffix List</string>
+    <string name="license_gpl3_users" translatable="false">Seion</string>
+    <string name="license_gpl3_users_with_ffmpeg" translatable="false">Seion, FFmpeg audio decoder</string>
+    <string name="license_mit_users" translatable="false">Checker Framework qualifiers</string>
+    <string name="license_ffmpeg_source" translatable="false">FFmpeg decoder source code: https://github.com/jellyfin/jellyfin-androidx-media (version %1$s), FFmpeg: https://ffmpeg.org</string>
+    <string name="license_psl_source" translatable="false">Public Suffix List source code: https://publicsuffix.org/list/ (https://github.com/publicsuffix/list)</string>
+    <string name="license_notice_title" translatable="false">NOTICE (Apache License 2.0, section 4(d)), from kotlinx.coroutines via AndroidX Concurrent Futures:</string>
+    <string name="license_notice_kotlinx_coroutines" translatable="false">kotlinx.coroutines library.\nCopyright 2016-2024 JetBrains s.r.o and contributors</string>
+    <string name="library">Library</string>
+    <string name="albums">Albums</string>
+    <string name="all_songs">All songs</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genres</string>
+    <string name="folders">Folders</string>
+    <string name="files">Files</string>
+    <string name="recently_added">Recently added</string>
+    <string name="newest_first">Newest first</string>
+    <string name="songs">Songs</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search songs, albums, artists</string>
+    <string name="no_results">Nothing found</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="more_options">More options</string>
+    <string name="settings">Settings</string>
+    <string name="rescan_library">Rescan library</string>
+    <string name="play_queue">Play queue</string>
+    <string name="queue_empty">The queue is empty</string>
+    <string name="reorder">Drag to reorder</string>
+    <string name="remove_from_queue">Remove from the queue</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="repeat">Repeat</string>
+    <string name="stop">Stop</string>
+    <string name="seek">Playback progress</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_all">All tracks</string>
+    <string name="repeat_one">One track</string>
+    <string name="toggle_on">On</string>
+    <string name="toggle_off">Off</string>
+    <string name="open_now_playing">Open the Now playing screen</string>
+    <string name="unknown_artist">Unknown artist</string>
+    <!-- The full artist list read by TalkBack and shown on Now playing: "Ana, Bruno, Carla and Davi" (the list before, then the last name). -->
+    <string name="artists_spoken_last">%1$s and %2$s</string>
+    <!-- TalkBack action on Now playing's artist line; it opens the list of every artist. -->
+    <string name="artists_show_all">Show all artists</string>
+    <string name="artists_all_close">Close</string>
+    <string name="unknown_genre">Unknown genre</string>
+    <string name="minutes">%1$d min</string>
+    <string name="hours_minutes">%1$d h %2$d min</string>
+    <string name="scanning">Scanning the library…</string>
+    <string name="empty_library_title">No music yet</string>
+    <string name="empty_library_body">Seion looks in your music folders. Copy music there or add another folder.</string>
+    <string name="music_folders">Music folders</string>
+    <string name="no_music_folders">No music folders</string>
+    <string name="folder_unavailable">Not available (removed card?)</string>
+    <string name="folder_empty">No folders or audio files here</string>
+    <string name="error_unsupported">“%1$s”: this audio format can’t be decoded on this device, skipped</string>
+    <string name="no_cover">No cover art</string>
+    <string name="online_notice">A cover or track info was looked up online (only names sent)</string>
+    <string name="error_stopped">Couldn’t play “%1$s”; playback stopped</string>
+    <string name="error_skipped">Couldn’t play “%1$s”, skipped</string>
+    <string name="settings_library">Library</string>
+    <string name="settings_now_playing">Now playing</string>
+    <string name="settings_album_art">Album art</string>
+    <string name="settings_playback">Playback</string>
+    <string name="sound">Sound</string>
+    <string name="settings_sound_row">%1$s and %2$s</string>
+    <string name="settings_sound_row_summary">Sound enhancement and gapless playback, on the Sound screen</string>
+    <string name="sound_bypass_note">Both effects are off by default. With both off, Seion plays your music exactly as it is.</string>
+    <string name="crystalx_name" translatable="false">CrystalX+</string>
+    <string name="crystalx_summary">Fuller tone, crisper detail and a stereo image tuned to your headphones or speaker, with every peak held below clipping.</string>
+    <string name="crystalx_about_title">About CrystalX+</string>
+    <string name="crystalx_about_body">CrystalX+ refines every track in four stages.\n\n• Tonal balance: gentle shelves modelled on the ear\'s equal-loudness contours add body to the bass and air to the treble, while a dynamic bass control keeps loud passages from booming.\n• Harmonic exciter: a subtle stage, oversampled 2× to stay clean, adds fine upper harmonics for crisper detail.\n• Output-aware stereo: crossfeed on headphones for a natural, less tiring image; added width on the speaker.\n• True-peak limiter: measures peaks between samples as well as on them, and holds every one below clipping.\n\nVery loud, heavily compressed masters play slightly quieter with CrystalX+ on.</string>
+    <string name="renovapure_name" translatable="false">Seion RenovaPure</string>
+    <string name="renovapure_summary">Detects where lossy compression cut the treble and restores what was lost from the top octave, designed never to sound brighter than the lossless original. Files with their full treble play untouched.</string>
+    <string name="renovapure_about_title">About Seion RenovaPure</string>
+    <string name="renovapure_about_body">Lossy formats save space by discarding the highest frequencies, which dulls cymbals, breath and the sound of the room.\n\nSeion RenovaPure analyses each track\'s spectrum to find the frequency where the encoder cut the treble, then rebuilds the missing band from the music just below it, following its natural roll-off. The restored band is held slightly below the level the recording would have had, so the result is designed never to sound brighter than the lossless original, and an onset guard keeps attacks from smearing.\n\nWhen no cutoff is found, as on files with their full treble, the music passes through bit for bit.</string>
+    <string name="sound_about_ok">OK</string>
+    <string name="settings_language">Language</string>
+    <string name="language_follow_system_current">System default (%1$s)</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_pt_br" translatable="false">Português (Brasil)</string>
+    <string name="settings_about">About</string>
+    <!-- The brand line in Settings › About: the name and its kanji, 清音 ("clear sound"). Not the launcher label. -->
+    <string name="about_brand" translatable="false">Seion 清音</string>
+    <string name="about_brand_meaning">clear sound</string>
+    <string name="identify_again">Identify untagged tracks again</string>
+    <string name="identify_none">All tracks are identified</string>
+    <string name="find_covers_again">Find missing covers again</string>
+    <string name="find_covers_again_summary">Search again for albums and tracks that still have no cover</string>
+    <string name="find_covers_running">Searching for covers…</string>
+    <string name="find_covers_started">Searching for missing covers in the background</string>
+    <string name="find_covers_none_found">No new covers found</string>
+    <string name="find_covers_progress">Searching for covers… %1$s · %2$s</string>
+    <string name="find_covers_progress_none_found">none found</string>
+    <string name="find_covers_done">Done</string>
+    <string name="find_covers_stopped">Stopped</string>
+    <string name="find_covers_stop_action">Stop searching</string>
+    <string name="find_covers_progress_description">Cover search progress</string>
+    <string name="rescan_now">Rescan now</string>
+    <string name="rescan_now_summary">Look for new, changed and removed files</string>
+    <string name="ignore_short">Ignore tracks shorter than 30 s</string>
+    <string name="ignore_short_summary">Hides short recordings from the library lists</string>
+    <string name="background_style">Background style</string>
+    <string name="background_ambient" translatable="false">Seion Infinite</string>
+    <string name="background_classic">Classic</string>
+    <string name="background_onyx">Onyx</string>
+    <string name="ambient_drift">Background motion</string>
+    <string name="ambient_drift_summary">The Seion Infinite background drifts slowly while playing</string>
+    <string name="spectrum">Spectrum analyzer</string>
+    <string name="spectrum_summary">Bars that move with the music under the cover while playing</string>
+    <string name="spectrum_reduced_motion">Off while animations are removed</string>
+    <string name="use_folder_images">Use folder images</string>
+    <string name="use_folder_images_summary">cover.jpg, folder.jpg and similar images next to the music</string>
+    <string name="online_covers">Look up missing covers and track info online</string>
+    <string name="online_covers_summary">Only names are sent (album artist and album for covers; artist, title and length for untagged files), to an open music database and its cover archive, at most one request per second. Tags and folder images always come first; your files are never changed.</string>
+    <string name="wifi_only">Wi-Fi only</string>
+    <string name="clear_cover_cache">Clear online cover cache</string>
+    <string name="clear_cover_cache_summary">Downloaded covers and “not found” results</string>
+    <string name="gapless">Gapless playback</string>
+    <string name="gapless_summary">Trims encoder padding so albums flow without gaps</string>
+    <string name="licenses">Open-source licenses</string>
+    <string name="licenses_title">Open-source licenses</string>
+    <string name="licenses_app">Seion is free software: you can redistribute it and modify it under the terms of the GNU General Public License, version 3 or (at your option) any later version.</string>
+    <string name="licenses_intro">Seion is built with these open-source libraries:</string>
+    <string name="covers_notice">Online covers come from an open, community-maintained music database and the cover archive linked to it.</string>
+    <string name="default_folders_note">Default: internal storage’s Music folder and every memory card.</string>
+    <string name="remove_folder">Remove folder</string>
+    <string name="add_folder">Add folder</string>
+    <string name="reset_defaults">Reset to defaults</string>
+    <string name="choose_folder">Choose a folder</string>
+    <string name="no_subfolders">No subfolders</string>
+    <string name="use_this_folder">Use this folder</string>
+    <string name="permission_title">Let Seion see your music</string>
+    <string name="permission_body">Seion plays music straight from your folders and memory cards. Android calls this “All files access”: turn it on for Seion on the next screen.</string>
+    <string name="permission_grant">Allow access</string>
+    <string name="permission_note">Seion only reads music and cover images. Nothing leaves the device except optional cover and track info lookups.</string>
+    <plurals name="n_songs">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <plurals name="n_albums">
+        <item quantity="one">%d album</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+    <plurals name="n_artists">
+        <item quantity="one">%d artist</item>
+        <item quantity="other">%d artists</item>
+    </plurals>
+    <plurals name="n_genres">
+        <item quantity="one">%d genre</item>
+        <item quantity="other">%d genres</item>
+    </plurals>
+    <plurals name="n_folders">
+        <item quantity="one">%d folder</item>
+        <item quantity="other">%d folders</item>
+    </plurals>
+    <plurals name="n_files">
+        <item quantity="one">%d audio file</item>
+        <item quantity="other">%d audio files</item>
+    </plurals>
+    <plurals name="n_tracks">
+        <item quantity="one">%d track</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <plurals name="n_entries">
+        <item quantity="one">%d entry</item>
+        <item quantity="other">%d entries</item>
+    </plurals>
+    <plurals name="identify_pending">
+        <item quantity="one">%d track not identified</item>
+        <item quantity="other">%d tracks not identified</item>
+    </plurals>
+    <plurals name="find_covers_found">
+        <item quantity="one">%d new cover found</item>
+        <item quantity="other">%d new covers found</item>
+    </plurals>
+    <plurals name="find_covers_missing">
+        <item quantity="one">%d album still without a cover</item>
+        <item quantity="other">%d albums still without a cover</item>
+    </plurals>
+    <plurals name="find_covers_progress_albums">
+        <item quantity="one">%1$d of %2$d album</item>
+        <item quantity="other">%1$d of %2$d albums</item>
+    </plurals>
+    <plurals name="find_covers_progress_found">
+        <item quantity="one">%d found</item>
+        <item quantity="other">%d found</item>
+    </plurals>
+    <plurals name="cache_cleared">
+        <item quantity="one">Cleared %d cached cover entry</item>
+        <item quantity="other">Cleared %d cached cover entries</item>
+    </plurals>
+    <!-- Playlists -->
+    <string name="playlists">Playlists</string>
+    <string name="playlist">Playlist</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="playlist_default_name">Playlist %1$d</string>
+    <string name="playlist_name">Name</string>
+    <string name="rename_playlist">Rename playlist</string>
+    <string name="delete_playlist">Delete playlist</string>
+    <string name="delete_playlist_title">Delete “%1$s”?</string>
+    <string name="delete_playlist_body">The songs stay on your device.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="save">Save</string>
+    <string name="name_empty">Enter a name</string>
+    <string name="name_taken">A playlist with this name already exists</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="add_queue_to_playlist">Add queue to playlist</string>
+    <string name="added_to">Added to “%1$s”</string>
+    <string name="already_in">Already in “%1$s”</string>
+    <string name="no_playlists_title">No playlists yet</string>
+    <string name="no_playlists_body">Create one here, or touch and hold a song, album or artist anywhere in the library and choose Add to playlist.</string>
+    <string name="playlist_empty_title">No songs yet</string>
+    <string name="playlist_empty_body">Touch and hold a song, album, artist or folder anywhere in the library and choose this playlist.</string>
+    <string name="edit_order">Edit order</string>
+    <string name="done">Done</string>
+    <string name="remove_from_playlist">Remove from playlist</string>
+    <string name="removed_from_playlist">Removed “%1$s”</string>
+    <string name="undo">Undo</string>
+    <string name="not_available">Not available</string>
+    <string name="song_not_available">“%1$s” is not available (moved, renamed or on a removed card?)</string>
+    <string name="remove_unavailable">Remove unavailable songs</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_by_recent">Sort by recently changed</string>
+    <string name="import_playlist">Import playlist file</string>
+    <string name="export_playlist">Export playlist file</string>
+    <string name="import_nothing">None of the songs in this file were found on your device</string>
+    <string name="import_failed">Couldn’t read this file</string>
+    <string name="exported">Saved “%1$s”</string>
+    <string name="export_failed">Couldn’t save the file</string>
+    <string name="more_options_for">More options for %1$s</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="queue_label">Play queue</string>
+    <plurals name="name_too_long">
+        <item quantity="one">Use up to %d character</item>
+        <item quantity="other">Use up to %d characters</item>
+    </plurals>
+    <plurals name="n_playlists">
+        <item quantity="one">%d playlist</item>
+        <item quantity="other">%d playlists</item>
+    </plurals>
+    <plurals name="added_songs_to">
+        <item quantity="one">Added %1$d song to “%2$s”</item>
+        <item quantity="other">Added %1$d songs to “%2$s”</item>
+    </plurals>
+    <plurals name="n_already_there">
+        <item quantity="one">%d was already there</item>
+        <item quantity="other">%d were already there</item>
+    </plurals>
+    <plurals name="n_unavailable">
+        <item quantity="one">%d unavailable</item>
+        <item quantity="other">%d unavailable</item>
+    </plurals>
+    <plurals name="removed_unavailable">
+        <item quantity="one">Removed %d unavailable song</item>
+        <item quantity="other">Removed %d unavailable songs</item>
+    </plurals>
+    <plurals name="imported_songs">
+        <item quantity="one">Imported “%2$s” with %1$d song</item>
+        <item quantity="other">Imported “%2$s” with %1$d songs</item>
+    </plurals>
+    <plurals name="n_not_found">
+        <item quantity="one">%d not found</item>
+        <item quantity="other">%d not found</item>
+    </plurals>
+    <!-- Queue sections, album sort, settings -->
+    <string name="queue_now_playing">Now playing</string>
+    <string name="queue_up_next">Up next</string>
+    <string name="removed_from_queue">Removed “%1$s”</string>
+    <string name="album_sort_title">Title</string>
+    <string name="album_sort_artist">Artist</string>
+    <string name="album_sort_year">Year</string>
+    <string name="album_sort_description">Sort albums: %1$s</string>
+    <string name="background_style_dialog_description">How Now playing uses the cover’s colours.</string>
+    <string name="background_ambient_description">The cover’s colours spread across the whole screen, softly blurred (default)</string>
+    <string name="background_classic_description">One colour from the cover, fading to black from top to bottom</string>
+    <string name="background_onyx_description">Plain black: the cover alone, none of its colours</string>
+    <string name="art_summary_embedded">Embedded</string>
+    <string name="art_summary_folder">folder images</string>
+    <string name="art_summary_online">online</string>
+    <string name="art_summary_online_wifi">online on Wi-Fi</string>
+    <string name="last_scan_today">Last scan today %1$s</string>
+    <string name="last_scan_yesterday">Last scan yesterday %1$s</string>
+    <string name="last_scan_on">Last scan %1$s</string>
+    <string name="pause_on_disconnect">Pause when headphones disconnect</string>
+    <string name="pause_on_disconnect_summary">Always on</string>
+    <string name="about_version_line">%1$s · version %2$s</string>
+    <string name="licenses_summary">The libraries Seion is built with</string>
+    <string name="source_code">Source code</string>
+    <string name="source_code_summary">Free software · %1$s</string>
+    <string name="licenses_source">Seion\'s source code: %1$s</string>
+    <string name="no_browser">No app can open this link</string>
+    <string name="wifi_only_summary">Never look up over mobile data</string>
+    <string name="cache_empty">Empty</string>
+    <string name="cache_only_misses">Only “not found” results</string>
+    <plurals name="n_cached_covers">
+        <item quantity="one">%d cover</item>
+        <item quantity="other">%d covers</item>
+    </plurals>
+    <string name="lookup_intro">Seion looks for a cover in this order and stops at the first one it finds:</string>
+    <string name="lookup_file">In the audio file</string>
+    <string name="lookup_file_detail">The cover embedded in its tags · always on</string>
+    <string name="lookup_folder">An image in the album’s folder</string>
+    <string name="lookup_folder_detail">cover.jpg, folder.jpg and similar images</string>
+    <string name="lookup_online">Online, then kept on the device</string>
+    <string name="lookup_online_detail">An open music database and its cover archive</string>
+    <string name="lookup_online_detail_wifi">An open music database and its cover archive · Wi-Fi only</string>
+    <string name="lookup_online_off">Off</string>
+    <string name="lookup_tile">The “no cover” tile</string>
+    <string name="lookup_tile_detail">Seion’s own tile when nothing is found</string>
+    <string name="online_covers_short">Looks up artist, album and track names online</string>
+    <!-- Sleep timer (Now playing ⋮) -->
+    <string name="sleep_timer">Sleep timer</string>
+    <plurals name="sleep_timer_left">
+        <item quantity="one">%d min left</item>
+        <item quantity="other">%d min left</item>
+    </plurals>
+    <plurals name="sleep_timer_pauses_in">
+        <item quantity="one">Pauses in %d min</item>
+        <item quantity="other">Pauses in %d min</item>
+    </plurals>
+    <plurals name="sleep_timer_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <string name="sleep_timer_end_of_song">End of current song</string>
+    <string name="sleep_timer_end_of_song_short">End of song</string>
+    <string name="sleep_timer_pauses_at_end">Pauses at the end of this song</string>
+    <string name="sleep_timer_description">The music fades out, then pauses.</string>
+    <string name="sleep_timer_extend">+%d min</string>
+    <string name="sleep_timer_off">Turn off the timer</string>
+    <string name="sleep_timer_indicator">Sleep timer: %1$s</string>
+    <!-- ReplayGain (Sound screen). "ReplayGain" is the name of the tag standard, kept as is. -->
+    <string name="replaygain" translatable="false">ReplayGain</string>
+    <string name="replaygain_section">Loudness</string>
+    <string name="replaygain_summary">Plays songs at the same loudness, using the ReplayGain values in their tags</string>
+    <string name="replaygain_album">Album</string>
+    <string name="replaygain_album_summary">Keeps the differences between the songs of an album</string>
+    <string name="replaygain_track">Track</string>
+    <string name="replaygain_track_summary">Every song at the same loudness, good for shuffle</string>
+    <string name="replaygain_preamp">Pre-amp</string>
+    <string name="replaygain_preamp_value">%1$s dB</string>
+    <string name="replaygain_note">Songs without ReplayGain values play unchanged. When a song is raised, the limiter keeps it below the clipping point.</string>
+    <!-- Details and chosen covers (touch and hold, album ⋮). No source is named: only its kind. -->
+    <string name="details">Details</string>
+    <string name="details_title_label">Title</string>
+    <string name="details_artist">Artist</string>
+    <string name="details_album">Album</string>
+    <string name="details_album_artist">Album artist</string>
+    <string name="details_year">Year</string>
+    <string name="details_track_number">Track</string>
+    <string name="details_track_on_disc">%1$d · disc %2$d</string>
+    <string name="details_length">Length</string>
+    <string name="details_file">File</string>
+    <string name="details_folder">Folder</string>
+    <string name="details_songs">Songs</string>
+    <string name="details_cover">Cover</string>
+    <string name="cover_chosen">Chosen by you</string>
+    <string name="cover_online">Online</string>
+    <string name="cover_online_database">Online, from an open music database</string>
+    <string name="change_cover">Change cover</string>
+    <string name="use_original_cover">Use original cover</string>
+    <string name="cover_changed">Cover changed</string>
+    <string name="cover_restored">Original cover restored</string>
+    <string name="cover_image_failed">Couldn’t use this picture</string>
+    <string name="lookup_chosen">A cover you chose</string>
+    <string name="lookup_chosen_detail">Album page ⋮ › Change cover · kept by Seion, never in your folders</string>
+</resources>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="18 18 72 72" role="img" aria-label="Seion app icon">
+<title>Seion app icon</title>
+<!-- The launcher icon from design/icon/slots/full.svg, cropped to the visible 72 x 72 area of the adaptive canvas. -->
+<defs><clipPath id="tile"><rect x="18" y="18" width="72" height="72" rx="18"/></clipPath><linearGradient id="g" x1="37.17" y1="37.17" x2="70.83" y2="70.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFC453"/><stop offset="1" stop-color="#FF7F5C"/></linearGradient></defs>
+<g clip-path="url(#tile)"><path d="M0,0 H108 V108 H0 Z" fill="#16171A"/><path d="M74.412,42.61 L47.625,42.61 A3.57,3.57 0 0,0 47.625,49.75 L76.985,49.75 A23.375,23.375 0 0,1 33.588,65.39 L60.375,65.39 A3.57,3.57 0 0,0 60.375,58.25 L31.015,58.25 A23.375,23.375 0 0,1 74.412,42.61 Z" fill="url(#g)"/></g>
+</svg>
